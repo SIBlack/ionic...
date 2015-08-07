@@ -1,0 +1,29 @@
+
+<ion-view view-title="About">
+  <ion-content class="padding">
+    <div class="login">
+      <div class="item item-divider"><center><div> EN/LT most popular words</div></center></div>
+      <div class="item item-body">
+        <div>
+             
+        </div>
+                <form>
+            <ion-list>
+ 
+	            
+                <label class="item item-input">
+                    <span class="input-label">Email</span>
+                    <input type="text" ng-model="data.email" placeholder="">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label">Password</span>
+                    <input type="password" ng-model="data.password" placeholder="">
+                </label>
+            </ion-list>
+            <div class="spacer" style="height: 40px;"></div>
+            <button class="button button-full button-positive" ng-click="Login(data)">Login</button>
+            
+            <a href="#/signup" class="button button-full button-positive ">Create new account</a>
+        </form>
+  </ion-content>
+</ion-view>
